@@ -1,0 +1,8 @@
+FBFBBFFRLR
+BFFFBBFRRR
+FFFBBBFRRR
+BBFFBBFRLL
+
+    if(($current -1) -in $bpOrdered -and ($current + 1) -in $bpOrdered) {
+        Write-Host ('Part 2: {0} is my seat!' -f $current)
+    }
